@@ -3,6 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nav{
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.list{
+    display: flex;
+    gap: 10px;
+}
+.list li{
+    list-style: none;
+}
 .cart-zz{
     width: 80%;
     display: flex;
