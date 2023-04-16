@@ -11,7 +11,7 @@ function MovieList(props) {
         <img className="card-img-top  img-m" src={movie.posterURL} alt="Card" />
         <div className="card-body">
           <h5 className="card-title">{movie.title} Rating : {movie.rating}</h5>
-          <Link  className="btn btn-primary" to={"card"}>more information</Link>
+          <Link  className="btn btn-primary" to={movie.title}>Trailer</Link>
         </div>
       </div>)
       })}
